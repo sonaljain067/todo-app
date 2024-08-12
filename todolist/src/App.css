@@ -1,0 +1,49 @@
+.App{
+    padding: 1rem;
+    .todo{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 2rem; 
+    }
+}
+input, select {
+    padding: 0.75rem; 
+    border-radius: 5px;
+    outline: none; border: 1px solid gray; 
+}
+button {
+    background-color: #375259;
+    color: white; 
+    border: none; outline: none; 
+    padding: 0.5rem; 
+    border-radius: 5px;
+}
+.newTask{
+    padding: 1rem; 
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; 
+}
+.searchSection{
+    display: grid;
+    grid-template-columns: 4fr 1fr; 
+    gap: 1rem; 
+}
+.searchBtn{
+    padding: 0.65rem; 
+}
+.delBtn{
+    background-color: transparent;
+    color: #375259;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+    > li {
+        padding: 0.25rem; 
+    }
+}
